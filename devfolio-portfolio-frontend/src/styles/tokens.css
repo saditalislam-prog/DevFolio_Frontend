@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+
+:root {
+  --font-heading: 'Fraunces', Georgia, serif;
+  --font-body: 'DM Sans', Arial, sans-serif;
+
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-12: 96px;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-md: 16px;
+  --text-lg: 20px;
+  --text-xl: 24px;
+  --text-2xl: 32px;
+  --text-3xl: 48px;
+
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 8px 24px rgba(15, 23, 42, 0.07);
+  --shadow-md: 0 20px 48px rgba(15, 23, 42, 0.12);
+
+  --bg: #fbfaf7;
+  --surface: #ffffff;
+  --surface-2: #f3f4f1;
+  --text: #17201d;
+  --muted: #5d6863;
+  --border: #dfe4e1;
+  --accent: #0f766e;
+  --accent-strong: #0b5f59;
+  --accent-soft: #d9f0ec;
+  --success: #17803d;
+  --warning: #a96008;
+  --danger: #b42318;
+}
+
+[data-theme='dark'] {
+  --bg: #111614;
+  --surface: #18201d;
+  --surface-2: #202a26;
+  --text: #f3f7f5;
+  --muted: #aebbb5;
+  --border: #33413b;
+  --accent: #60c7ba;
+  --accent-strong: #86d7cd;
+  --accent-soft: #203f3a;
+  --shadow-sm: 0 8px 24px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 20px 48px rgba(0, 0, 0, 0.32);
+}
